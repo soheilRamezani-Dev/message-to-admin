@@ -52,6 +52,7 @@ const Form = () => {
             onChange={formik.handleChange}
             value={formik.values.name}
             onBlur={formik.handleBlur}
+            onFocus={()=>setIsSend(false)}
             type="text"
             name="name"
             id="name"
@@ -68,6 +69,7 @@ const Form = () => {
             onChange={formik.handleChange}
             value={formik.values.email}
             onBlur={formik.handleBlur}
+            onFocus={()=>setIsSend(false)}
             type="text"
             name="email"
             id="email"
@@ -84,6 +86,7 @@ const Form = () => {
             onChange={formik.handleChange}
             value={formik.values.text}
             onBlur={formik.handleBlur}
+            onFocus={()=>setIsSend(false)}
             type="text"
             name="text"
             id="text"
