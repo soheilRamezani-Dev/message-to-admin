@@ -1,5 +1,9 @@
+import Form from "./components/form";
+
 const App = () => {
-    return <div>fgv</div>
+    return <div className="app">
+        <Form/>
+    </div>
 }
  
 export default App;
