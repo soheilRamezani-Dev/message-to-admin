@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# send message to management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## description
+this project implemented with a form that has name , email and ma=essage field.
+when you fill the elemnts a email send to you with message details and it can setd to admin for answer
+it uses from emailjs api
+
+## technology
+javascript , react,formik and yup for form , bootstrap and axios
+
+## DEMO
+screen:
+![send message to admin](https://i.postimg.cc/Y0DhYcTG/Screenshot-from-2022-09-14-00-48-36.jpg)
+
+live url :
+https://scintillating-faloodeh-b5e28c.netlify.app/
 
 ## Available Scripts
 
